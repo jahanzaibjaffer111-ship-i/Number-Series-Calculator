@@ -8,7 +8,7 @@ public class number_series_calculator_using_while
         while(true)
         {
             System.out.println("Hello");
-            System.out.println("Welcome to");
+            System.out.println("Welcome to no series calc");
             System.out.println("Enter starting value");
             a=read.nextInt();
             System.out.println("Enter ending value");
@@ -56,4 +56,5 @@ public class number_series_calculator_using_while
             }
         }
     }
+
 }
