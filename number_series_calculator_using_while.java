@@ -48,7 +48,7 @@ public class number_series_calculator_using_while
                     System.out.println(".");
                 }
             }
-            else if (c=0)
+            else if (c==0)
             {
                 System.out.println("Gap Value can't be zero");
                 System.out.println("Try again");
@@ -64,4 +64,5 @@ public class number_series_calculator_using_while
     }
 
 }
+
 
