@@ -7,19 +7,19 @@ public class number_series_Calculator_using_for
         Scanner read=new Scanner(System.in);
         while(true)
         {
-            System.out.println("hello");
-            System.out.println("welcome to no series calc");
-            System.out.println("type starting value");
+            System.out.println("Hello");
+            System.out.println("Welcome to Number Series Calculator");
+            System.out.println("Type Starting Value");
             a=read.nextInt();
-            System.out.println("type ending value");
+            System.out.println("Type Ending Value");
             b=read.nextInt();
-            System.out.println("type gap value");
+            System.out.println("Type Gap Value");
             c=read.nextInt();
             if (c>0)
             {
                 if(a!=b)
                 {
-                    System.out.println("values are");
+                    System.out.println("Values are");
                     if(a<b)
                     {
                         for(int i=a; i<=b; i=i+c)
@@ -30,23 +30,30 @@ public class number_series_Calculator_using_for
                         for(int i=a; i>=b; i=i-c)
                         System.out.println(i);
                     }
-                    System.out.println("Thanks");
-                    System.out.println("bye");
+                    System.out.println("Thank you");
+                    System.out.println("Bye");
                     System.out.println(".");
                 }
                 else if(a==b)
                 {
-                    System.out.println("starting and ending values cant be same");
-                    System.out.println("try again");
+                    System.out.println("Starting and Ending Values can't be same");
+                    System.out.println("Try again");
                     System.out.println(".");
                 }
             }
-            else if (c<=0)
+            else if (c=0)
             {
-                 System.out.println("Gap cant be negative or zero");
-                 System.out.println("try again");
+                 System.out.println("Gap value can't be zero");
+                 System.out.println("Try again");
+                 System.out.println(".");
+            }
+            else if (c<0)
+            {
+                 System.out.println("Gap value can't be negative");
+                 System.out.println("Try again");
                  System.out.println(".");
             }
         }
     }
+
 }
