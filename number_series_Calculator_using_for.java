@@ -25,7 +25,7 @@ public class number_series_Calculator_using_for
                         for(int i=a; i<=b; i=i+c)
                         System.out.println(i);
                     }
-                    if(a>b)
+                    else if(a>b)
                     {
                         for(int i=a; i>=b; i=i-c)
                         System.out.println(i);
@@ -57,3 +57,4 @@ public class number_series_Calculator_using_for
     }
 
 }
+
